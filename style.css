@@ -28,9 +28,9 @@ nav {
     padding: 0 20px;
 }
 
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
+.logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
 }
 
 .nav-links {
@@ -142,4 +142,3 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
-
