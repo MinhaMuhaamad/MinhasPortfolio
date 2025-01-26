@@ -5,102 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Muhammad</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Reset some default browser styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
-        }
-
-        header {
-            background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .logo img {
-            width: 100px; /* Adjust the size as needed */
-            height: auto;
-        }
-
-        .logo {
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav-links li {
-            margin-left: 20px;
-        }
-
-        .nav-links a {
-            color: #fff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #ffdd57;
-        }
-
-        .hero {
-            margin-top: 50px;
-            padding: 50px 20px;
-        }
-
-        .hero h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 1.2em;
-        }
-
-        section {
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            position: relative;
-            display: inline-block;
-        }
-
-        h2::after {
-            content: '';
-            display: block;
-            width: 50px;
-            height: 3px;
-            background: #4e54c8;
-            margin: 10px auto 0;
-        }
-
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="path-to-your-logo/logo.png" alt="Your Logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Minha Muhammad</h1>
+            <p>Creative Developer & Designer</p>
+        </div>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Brief introduction about yourself, your passion, and background.</p>
+    </section>
+    <section id="work">
+        <h2>Recent Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+        <a href="mailto:your.email@example.com" class="contact-button">Say Hello</a>
+    </section>
+    <footer>
+        <p>&copy; 2025 Minha Muhammad. All rights reserved.</p>
+    </footer>
+</body>
+</html>
